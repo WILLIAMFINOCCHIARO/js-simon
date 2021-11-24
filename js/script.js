@@ -10,9 +10,7 @@
 // * Individuate gli elementi di cui avete bisogno per realizzare il programma.
 
 
-
 CreateClasses();
-
 
 
 
@@ -35,30 +33,29 @@ for(let i= 0; i < 5; i++) {
 let Random = Math.floor(Math.random()*99) + 1;
 ClassNumber.innerHTML = (Random);
 
-
+setTimeout(TimeUtente,(30*1000)) ;
 function TimeUtente () {
   ClassNumber.innerHTML = "";
 
 };
 
-
-
-}
-
-setTimeout(TimeUtente,3000) ;
-
-};
-
-
-
-
-
-const UtenteNumeri = parseInt(prompt("Inserisci  cinque numeri che hai visto precedentemente"));
-
+}};
 
 
 
 // Richiesta all'utente dei numeri
+
+// setTimeout(TimeRequest,3000);
+// function TimeRequest () {
+//   const UtenteNumeri = parseInt(prompt("Inserisci  cinque numeri che hai visto precedentemente"));
+
+// };
+
+ 
+
+
+
+
 
 
 // // verifica(UtenteNumeri);
